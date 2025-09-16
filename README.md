@@ -48,5 +48,3 @@ Options:
 * --days-backups <N>: Delete archives older than N days (default 30)
 * --delete-originals: Delete logs after successful archive
 * --help: Show help
-
-* https://roadmap.sh/projects/log-archive-tool
