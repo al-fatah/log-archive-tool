@@ -22,6 +22,7 @@ Useful for keeping systems clean while still keeping historical logs.
 Run without flags:
 ```bash
 ./log-archive.sh
+```
 
 Menu options let you:
 1. Set log directory
@@ -32,12 +33,13 @@ Menu options let you:
 6. Setup daily cron (2:00 AM)
 7. Exit
 
-Non-Interactive Mode
+Non-Interactive Mode:
 ```bash
 ./log-archive.sh --log-dir /var/log \
                  --days-logs 7 \
                  --days-backups 30 \
                  --delete-originals
+```
 
 Options:
 
