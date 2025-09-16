@@ -33,7 +33,7 @@ Menu options let you:
 6. Setup daily cron (2:00 AM)
 7. Exit
 
-Non-Interactive Mode:
+### Non-Interactive Mode
 ```bash
 ./log-archive.sh --log-dir /var/log \
                  --days-logs 7 \
@@ -42,10 +42,9 @@ Non-Interactive Mode:
 ```
 
 Options:
-
---log-dir <dir>: Source log directory (required)
---dest <dir>: Destination (default: <logdir>-archives)
---days-logs <N>: Archive files older than N days (default 7)
---days-backups <N>: Delete archives older than N days (default 30)
---delete-originals: Delete logs after successful archive
---help: Show help
+* --log-dir <dir>: Source log directory (required)
+* --dest <dir>: Destination (default: <logdir>-archives)
+* --days-logs <N>: Archive files older than N days (default 7)
+* --days-backups <N>: Delete archives older than N days (default 30)
+* --delete-originals: Delete logs after successful archive
+* --help: Show help
